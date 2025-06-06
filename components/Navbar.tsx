@@ -8,7 +8,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 z-10 w-full bg-[#FAF9F6] hover:border-b-3 hover:border-[#93b075] text-text transition-all duration-100 ease-in-out">
+    <nav className="fixed top-0 z-10 w-full bg-[#FAF9F6] hover:border-b-3 hover:border-[#93b075] text-text text-[18px] transition-all duration-100 ease-in-out">
       <div className="max-w-5xl mx-auto relative px-12 py-2 flex items-center justify-between">
         <img src="/logo.png" className="w-18" />
         {/* Desktop menu */}
@@ -19,7 +19,7 @@ export default function Navbar() {
               smooth={true}
               offset={-100}
               duration={500}
-              className="block hover:cursor-pointer hover:underline hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:cursor-pointer hover:underline hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               Home
@@ -30,7 +30,7 @@ export default function Navbar() {
               to="services"
               smooth={true}
               duration={500}
-              className="block hover:cursor-pointer hover:underline hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:cursor-pointer hover:underline hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               Services
@@ -42,7 +42,7 @@ export default function Navbar() {
               smooth={true}
               duration={500}
               offset={-90}
-              className="block hover:cursor-pointer hover:underline hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:cursor-pointer hover:underline hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               FAQ
@@ -53,7 +53,7 @@ export default function Navbar() {
               to="about"
               smooth={true}
               duration={500}
-              className="block hover:cursor-pointer hover:underline hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:cursor-pointer hover:underline hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               About
@@ -64,7 +64,7 @@ export default function Navbar() {
               to="contact"
               smooth={true}
               duration={500}
-              className="block hover:cursor-pointer hover:underline hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:cursor-pointer hover:underline hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               Contact
@@ -87,7 +87,7 @@ export default function Navbar() {
               to="home"
               smooth={true}
               duration={500}
-              className="block hover:underline hover:cursor-pointer hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:underline hover:cursor-pointer hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               Home
@@ -99,7 +99,7 @@ export default function Navbar() {
               to="services"
               smooth={true}
               duration={500}
-              className="block hover:underline hover:cursor-pointer hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:underline hover:cursor-pointer hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               Services
@@ -111,7 +111,7 @@ export default function Navbar() {
               to="faq"
               smooth={true}
               duration={500}
-              className="block hover:underline hover:cursor-pointer hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:underline hover:cursor-pointer hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               Frequently Asked Questions
@@ -123,7 +123,7 @@ export default function Navbar() {
               to="about"
               smooth={true}
               duration={500}
-              className="block hover:underline hover:cursor-pointer hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:underline hover:cursor-pointer hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               About
@@ -135,7 +135,7 @@ export default function Navbar() {
               to="contact"
               smooth={true}
               duration={500}
-              className="block hover:underline hover:cursor-pointer hover:text-[16.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
+              className="block hover:underline hover:cursor-pointer hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
               Contact

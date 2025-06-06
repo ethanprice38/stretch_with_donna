@@ -26,19 +26,22 @@ export default function FAQPart({ items }: FAQPartProps) {
             return (
               <div
                 key={index}
-                className="bg-white mb-6 border-t-2 border-t-primary rounded-lg shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="bg-white mb-6 border-t-4 border-t-primary rounded-lg shadow-md transition-transform duration-200 hover:scale-102 hover:shadow-lg"
               >
                 <button
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   aria-expanded={isOpen}
-                  className="w-full flex justify-between items-center p-6 hover:cursor-pointer"
+                  className="w-full flex justify-between items-center text-left p-6 hover:cursor-pointer"
                 >
                   <span>{faq.question}</span>
                   <span>{isOpen ? "-" : "+"}</span>
                 </button>
                 {isOpen && (
-                  <div className="px-6 py-3">
-                    <p className="text-text text-left">{faq.answer}</p>
+                  <div className="px-6 pt-2 pb-4">
+                    <p
+                      className="text-text text-left"
+                      dangerouslySetInnerHTML={{ __html: faq.answer }}
+                    ></p>
                   </div>
                 )}
               </div>
