@@ -4,7 +4,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("xyzjkpzd");
+  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_KEY!);
   if (state.succeeded) {
     return (
       <p className="text-center text-primary font-semibold">
