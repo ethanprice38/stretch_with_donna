@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import NavIcon3 from "./NavIcon3";
 import { Link } from "react-scroll";
+import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -10,7 +11,12 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 z-10 w-full bg-[#FAF9F6] hover:border-b-3 hover:border-[#93b075] text-text text-[18px] transition-all duration-100 ease-in-out">
       <div className="max-w-5xl mx-auto relative px-12 py-2 flex items-center justify-between">
-        <img src="/logo.png" className="w-18" />
+        <Image
+          src="/logo.png"
+          width={60}
+          height={60}
+          alt="Stretch with Donna Logo"
+        />
         {/* Desktop menu */}
         <ul className="hidden md:flex gap-10 absolute left-1/2 transform -translate-x-1/2">
           <li>

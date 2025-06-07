@@ -65,7 +65,7 @@ export default function Home() {
       >
         <div className={`relative max-w-5xl px-4 py-8 mx-auto`}>
           <p className="text-center text-text text-[20px] tracking-normal">
-            You're on your way to a more flexible you!
+            You&#39;re on your way to a more flexible you!
           </p>
           <h1
             className={`${quicksand.className} text-center text-text font-semibold font-playfair text-[40px] tracking-wider`}
@@ -162,11 +162,11 @@ export default function Home() {
               <br />
               <br />
               Her approach blends technical skill and a deep understanding of
-              the human body. Whether you're stiff, recovering from an injury,
-              or want to feel better, Donna meets you where you are!
+              the human body. Whether you&#39;re stiff, recovering from an
+              injury, or want to feel better, Donna meets you where you are!
               <br />
               <br />
-              She believes flexibility isn't a luxury, but a foundation for
+              She believes flexibility isn&#39;t a luxury, but a foundation for
               longevity and feeling good. And no, you do not need to be an
               athlete to benefit.
             </p>
