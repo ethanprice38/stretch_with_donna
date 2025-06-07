@@ -59,6 +59,7 @@ export default function Navbar() {
               to="about"
               smooth={true}
               duration={500}
+              offset={-90}
               className="block hover:cursor-pointer hover:underline hover:text-[18.5px] hover:text-primary hover:font-semibold transition-all duration-300 ease-in-out"
               onClick={() => setOpen((o) => !o)}
             >
