@@ -32,7 +32,7 @@ const faqData = [
   {
     question: "Is this like physical or massage therapy?",
     answer:
-      "Not exactly, but it can complement them. Assisted stretching is a hands-on service focused on improving flexibility and mobility through.",
+      "Not exactly, but it can complement them. Assisted stretching is a hands-on service focused on improving flexibility and mobility.",
   },
   {
     question: "What should I wear for my stretch session?",
